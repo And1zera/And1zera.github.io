@@ -1,0 +1,110 @@
+body {
+    font-family: Poppins, serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#avatar{
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#avatar img{
+    margin-top: 20px;
+
+    height: 230px;
+
+    border-radius: 55%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#occupation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#text{
+    text-align: center;
+
+    padding: 0 200px;
+
+    margin-top: 15px;
+}
+.container{
+    max-width: 600px;
+
+    margin-top: 20px;
+}
+
+.col-sm {
+    border: 2px solid black;
+    border-radius: 20px;
+
+    margin: 10px;
+
+    transition: 0.2s;
+}
+
+.col-sm a{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+
+    color: black;
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.col-sm a img{
+    margin-top: 20px;
+    height: 40px;
+}
+
+#mediumlogo{
+    height: 30px;
+}
+
+.col-sm:hover{
+    border: 2px solid violet;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 15px;
+
+    margin-top: 50px;
+}
+
+@media (max-width: 700px) {
+    #text{
+        text-align: center;
+    
+        padding: 0 35px;
+    
+        margin-top: 15px;
+    }
+}

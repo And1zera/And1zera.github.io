@@ -88,8 +88,10 @@ body {
 }
 
 .col-sm a img{
+    margin-right: 10px;
     margin-top: 20px;
     height: 40px;
+
 }
 
 #mediumlogo{
@@ -104,12 +106,26 @@ body {
 
 footer{
     display: flex;
-    align-items: 100vh;
+    align-items: flex-end;
     justify-content: center;
 
     font-size: 15px;
 
     margin-top: 35px;
+}
+
+.contact-container{
+    margin-bottom: 15px;
+}
+
+.contact-container a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.modal-header h5{
+    font-weight: bold;
+    font-size: 25px;
 }
 
 @media (max-width: 700px) {

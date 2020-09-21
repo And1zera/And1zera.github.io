@@ -1,4 +1,4 @@
-![Screenshot_1](https://user-images.githubusercontent.com/59872272/92759369-0b4c8780-f366-11ea-9d1d-4eac243bfcea.png)
+![Screenshot_1](https://user-images.githubusercontent.com/59872272/93832417-1055e480-fc4c-11ea-8dc0-a5b5516687d1.png)
 
 ## 📚 Portfólio Basico
 
